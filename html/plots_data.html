@@ -9,17 +9,19 @@
         One problem that can occur in MOFA specifically is that one of your modalities is actually either not contributing any variance explanation, or way too much, which would lead one
         to believe that something we went wrong. That's why we make a simple plot that plots %variance explained by view.
         <br />
-        <img src="../images/VarianceByView.png" alt="VarianceByView" width="800" height="400">
+        <img src="../images/VarianceByView.png" alt="VarianceByView" width="300" height="400">
         <br />
         <h3>Variance by factor</h3>
         Another problem could be that in the amount of variance explained by factor. If one of the factors explains almost all of the variance, that doesn't necessarily need to be a problem,
         but in an intricate system such as brain cells, this can be concerning, since this could be a sign that your factor 1 is being distracted by some form of bias. If factor 15 is the factor
         that explains most variance, something obviously also went wrong. This is why we look at the variance per factor:
-        <img src="../images/VarianceByFactor.png" alt="VarianceByFactor" width="800" height="400">
+        <br />
+        <img src="../images/VarianceByFactor.png" alt="VarianceByFactor" width="700" height="500">
         <br />
         <h3>CorrelationPlot</h3>
         A last thing we check if there is any correlation amongst the factors themselves
         A good model fit should not show too much variance between the different identified factors. 
         Too much correlation would indicate the factors being similar to each other, which would mean that the explained variance will not significantly increase with the number of factors.
+        <img src="../images/CorrelationPlot.png" alt="CorrelationPlot" width="700" height="500">
   </body>
 </html>
