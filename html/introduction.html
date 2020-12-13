@@ -9,6 +9,7 @@
         More technically, MOFA is built upon the statistical framework of group Factor Analysis, adapted to the requirements of multi‐omics studies:  fast inference based on a variational approximation (using a stochastic variant of mean-field variational Bayes), inference of sparse solutions facilitating interpretation, efficient handling of missing values and flexible combination of different likelihood models for each data modality, which enables integrating diverse data types such as binary‐, count‐ and continuous‐valued data. The underlying master equation is the standard matrix factorization framework:
         <br />
         <img src="../images/formula.png" alt="formula" width="100" height="50">
+        <br />
         Where: Ygm is the matrix of observations (for the m-th modality and the g-th group), Wm is the weight matrix for the m-th modality, Zg is the factor matrix for the g-th group and εgm is the residual noise for the m-th modality and g-th group.
         Each of the inferred factors (Z) ordinates cells along a one-dimensional axis centered at zero. The values are not important per se, but the relative position is. Samples with different signs manifest opposite effects along the inferred axis of variation, with higher absolute value indicating a stronger effect (analogous to PCA). The weights provide a score for how strong each feature relates to each factor, allowing a direct biological interpretation of the latent factors.
         <br />
