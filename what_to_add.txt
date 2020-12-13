@@ -1,0 +1,10 @@
+-introduction
+    -What is MOFA and how does it work?
+-materials and methods
+    -Cell type annotation
+    -Model options
+-Downstream analysis
+    -Variance explained figure
+    -GSEA figure
+    -motif enrichment figure
+    
