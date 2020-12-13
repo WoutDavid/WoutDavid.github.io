@@ -6,6 +6,9 @@
         <h3>MOFA+</h3>
         Multi-Omics Factor Analysis is a model that provides a general framework for the integration of multi-omic datasets in an unsupervised manner, developed by Argelaguet et al. (2018 and 2020). 
         It can be viewed as a versatile and rigorous generalization of PCA, capable of inferring an interpretable, linearly-reduced, low dimensional representation in terms of a few latent factors that capture the driving sources of variation across all data modalities.
+        It assumes that your views(or data modalities) more or less share the same causes of variation, and thus draws strength from other data modalities to more accurately find features
+        that explain most of the variation in the entire dataset. This is a critical point of the framework: the goals is not to find factors or features that explain differences between modalities or groups, 
+        but to find those that explain most variation across the entire data, since it assumes it is all one entity.
         <br />
         <img src="../images/mofa_overview.png" alt="mofa_overview" width="1000" height="500">
         <br />
